@@ -1,0 +1,1009 @@
+<div id="content-desktop" style="width: 1100px;height: 40px;margin-left: 95px;margin-top: 15px;background-color:transparent;">
+
+  <button mat-button [matMenuTriggerFor]="menu" class="shop-button" style="background-color: yellowgreen;color: white;width:250px;text-align:left;">SHOP BY CATEGORY
+  <mat-icon style="margin-left: 70px;">keyboard_arrow_down</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="fruits" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;">Fruits & Vegetables</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="foodgrains" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Foodgrains, Oil & Masala</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="bakery" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bakery, Cakes & Dairy</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="beverage" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Beverages</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="snacks" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Snacks & Branded Foods</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="beauty" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Beauty & Hygiene</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cleaning" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cleaning & Household</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="kitchen" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kitchen, Garden & Pets</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="eggs" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Eggs, Meat & Fish</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="world" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gourmet & World Food</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="baby" style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item  style="width:250px;height:40px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">View All</button>
+</mat-menu>
+
+<mat-menu #fruits="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="herbs" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Herbs & Seasonings</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="fresh" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fresh Vegetables</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="frefruits" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fresh Fruits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cuts" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cuts & Sprouts</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="exotic" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Exotic Fruits & Veggies</button>
+</mat-menu>
+<mat-menu #herbs="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Lemon, Ginger & Garlic</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Indian & Exotic Herbs</button>
+</mat-menu>
+<mat-menu #fresh="matMenu">
+  
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Potato, Onion & Tomato</button>
+<mat-divider></mat-divider>
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Root Vegetables</button>
+<mat-divider></mat-divider>
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cucumber & Capsicum</button>
+<mat-divider></mat-divider>
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Beans, Brinjals & Okra</button>
+<mat-divider></mat-divider>
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cabbage & Cauliflower</button>
+<mat-divider></mat-divider>
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gourd, Pumpkin & Drumstick</button>
+<mat-divider></mat-divider>
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Leafy Vegetables</button>
+<mat-divider></mat-divider>
+<button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Specialty</button>
+</mat-menu>
+
+<mat-menu #frefruits="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kiwi, Melon, Citrus fruit</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Apples & Pomegranate</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Banana, Sapota & Papaya</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Seasonal fruit</button>
+</mat-menu>
+
+<mat-menu #cuts="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cut fruit, Tender Coconut</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cut & Peeled Veggies</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fresh Salads & Sprouts</button>
+</mat-menu>
+
+<mat-menu #exotic="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Exotic Fruits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Exotic Vegetables</button>
+</mat-menu>
+
+<mat-menu #foodgrains="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="dals" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dals & Pulses</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="atta" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Atta, Flours & Sooji</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="salt" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Salt, Sugar & Jaggery</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="dry" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dry Fruits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="edible" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Edible Oils & Ghee</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="rice" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Rice and Rice Products</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="masala" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Masalas & Spices</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="organic" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Staples</button>
+</mat-menu>
+
+<mat-menu #dals="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cereals & Millets</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Toor, Channa & Moong Dal</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Urad & Other Dals</button>
+</mat-menu>
+
+<mat-menu #atta="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Atta Whole Wheat</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sooji, Maida & Besan</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Rice & Other Flours</button>
+</mat-menu>
+
+<mat-menu #salt="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sugar & Jaggery</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Salts</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sugarfree Sweeteners</button>
+</mat-menu>
+
+<mat-menu #dry="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Almonds</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cashews</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Raisins</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Other Dry Fruits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mukhwas</button>
+</mat-menu>
+
+<mat-menu #edible="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Soya & Mustard Oils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Other Edible Oils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Blended Cooking Oils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Ghee & Vanaspati</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sunflower, Rice Bran Oil</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Olive & Canola Oils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gingelly, Groundnut Oils</button>
+</mat-menu>
+
+<mat-menu #rice="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Poha, Sabudana & Murmura</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Boiled & Steam Rice</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Basmati Rice</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Raw Rice</button>
+</mat-menu>
+
+<mat-menu #masala="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Whole Spices</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Powered Spices</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Blended Masalas</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cooking Pastes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Herbs & Seasoning</button>
+</mat-menu>
+
+<mat-menu #organic="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Edible Oil, Ghee</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Dry Fruits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Dals & Pulses</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Flours</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Masalas & Spices</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Rice, Other Rice</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Sugar, Jaggery</button>
+</mat-menu>
+
+<mat-menu #bakery="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="dairy" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dairy</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="bread" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Breads & Buns</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cookie" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cookies, Rusk & Khari</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cake" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cakes & Pastries</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="gourmet" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gourmet Breads</button>
+</mat-menu>
+
+<mat-menu #dairy="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Butter & Margarine</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Condensed, Powdered Milk</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Milk</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Paneer, Tofu & Cream</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cheese</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Butter Milk & Lassi</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Yogurt & Shrikhand</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Flavoured, Soya Milk</button>
+</mat-menu>
+<mat-menu #bread="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Brown, Wheat & Multigrain</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Buns, Pavs & Pizza Base</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Milk, White & Sandwich</button>
+</mat-menu>
+<mat-menu #cookie="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Rusks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Khari & Cream Rolls</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bakery Biscuits, Cookies</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Premium Cookies</button>
+</mat-menu>
+<mat-menu #cake="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tea Cakes & Slice Cakes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Muffins & Cup Cakes</button>
+</mat-menu>
+<mat-menu #gourmet="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Croissants, Bagels</button>
+ 
+</mat-menu>
+
+<mat-menu #beverage="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="tea" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tea</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="energy" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Energy & Soft Drinks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="coffee" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Coffee</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="health" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Health Drink, Supplement</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="water" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Water</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="juice" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fruit Juices & Drinks</button>
+  
+</mat-menu>
+<mat-menu #tea="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Leaf & Dust Tea</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Green Tea</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tea Baggs</button>
+</mat-menu>
+<mat-menu #energy="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Soda & Cocktail Mix</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cold Drinks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Non Alcoholic Drinks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Spots & Energy Drinks</button>
+</mat-menu>
+<mat-menu #coffee="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Instant Coffee</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Ground Coffee</button>
+</mat-menu>
+<mat-menu #health="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kids (5+Yrs)</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Diabetic Drinks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Men & Women</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Children (2-5 Yrs)</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Glucose Powder, Tablets</button>
+</mat-menu>
+<mat-menu #water="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Packaged Water</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Spring Water</button>
+</mat-menu>
+<mat-menu #juice="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Juices</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Unsweetened, Cold Press</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Syrups & Concentrates</button>
+</mat-menu>
+<mat-menu #snacks="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="chocolates" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chocolates & Candies</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="biscuits" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Biscuits & Cookies</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="noodle" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Noodle, Pasta, Vermicelli</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="breakfast" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Breakfast Cereals</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="spreads" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Spreads, Sauces, Ketchup</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="frozen" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Veggies & Snacks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="namkeen" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Snacks & Namkeen</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="indian" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Indian Mithai</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="ready" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Ready to Cook & Eat</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="pickles" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pickles & Chutney</button>
+</mat-menu>
+<mat-menu #chocolates="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chocolates</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Toffy, Candy & Lollypop</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gift Boxes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mints & Chewing Gum</button>
+</mat-menu>
+<mat-menu #biscuits="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Glucose & Milk Biscuits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Salted Biscuits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Marie, Health, Diestive</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cookies</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cream Biscuits & Wafers</button>
+</mat-menu>
+<mat-menu #noodle="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hakka Noodles</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Instant Noodles</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Vermicelli</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Instant Pasta</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cup Noodles</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pasta & Macaroni</button>
+</mat-menu>
+<mat-menu #breakfast="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Oats & Porridge</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kids Cereal</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Flakes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Muesli</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Granala & Cereal Bars</button>
+</mat-menu>
+<mat-menu #spreads="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Honey</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Jam, Conserve, Marmalade</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tomato Ketchup & Sauces</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Choco & Nut Spread</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mayonnaise</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chilli & Soya Sauce</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dips & Dressings</button>
+</mat-menu>
+<mat-menu #frozen="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Vegetables</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Veg Snacks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Indian Breads</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Non-Veg Snacks</button>
+</mat-menu>
+<mat-menu #namkeen="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Namkeen & Savoury Snacks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chips & Corn Snacks</button>
+</mat-menu>
+<mat-menu #indian="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tinned, Packed Sweets</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chikki & Gajjak</button>
+</mat-menu>
+<mat-menu #ready="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Soups</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Breakfast & Snack Mixes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Papads, Ready To Fry</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Heat & Eat Ready Meals</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dessert Mixes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Home Baking</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cannad Food</button>
+</mat-menu>
+<mat-menu #pickles="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Lime & Mango Pickle</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chutney Power</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Other Veg Pickle`</button>
+</mat-menu>
+<mat-menu #beauty="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="makeup" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Makeup</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="feminine" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Feminine Hyggiene</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="oral" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Oral Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="bath" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bath & Hand Wash</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="hair" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hair Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="grooming" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Men's Grooming</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="skin" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Skin Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="medicine" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Health & Medicine</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="fragrance" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fragrances & Deos</button>
+</mat-menu>
+<mat-menu #makeup="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Face</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Makeup Accessories</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Lips</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Nails</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Eyes</button>
+</mat-menu>
+<mat-menu #feminine="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sanitary Napkins</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Panty Liners</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Intimate Wash & Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hair Removal</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tampons & Menstrual Cups</button>
+</mat-menu>
+<mat-menu #oral="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mouth Wash</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tooth Paste</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tooth Brush</button>
+</mat-menu>
+<mat-menu #bath="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hand Wash & Sanitizers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bathing Bars & Soaps</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Talcum Powder</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Shower Gel & Body Wash</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bathing Accessories</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bath Salts & Oils</button>
+</mat-menu>
+<mat-menu #hair="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hair Oil & Serum</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Shampoo & Conditioner</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hair Color</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hair & Scalp Treatment</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hair Styling</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tools & Accessories</button>
+</mat-menu>
+<mat-menu #grooming="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Face & Body</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Shaving Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bath & Shower</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Talc</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hair Care & Styling</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Moustache & Beared Care</button>
+</mat-menu>
+<mat-menu #skin="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Face Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Body Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Eye Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Lip Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Aromatherapy</button>
+</mat-menu>
+<mat-menu #medicine="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Supplements & Proteins</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Everyday Medicine</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Adult Diapers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sexual Wellness</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Ayurveda</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Anticeptic & Bandages</button>
+</mat-menu>
+<mat-menu #fragrance="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Perfume</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Women's Deodorants</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Men's Deodorants</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Body Sprays & Mists</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Eau De Toilette</button>
+</mat-menu>
+<mat-menu #cleaning="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="detergent" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Detergents & Dishwash </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cleaners" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">All Purpose Cleaners</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="freshners" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fresheners & Repellents</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="bag" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Disposables, Garbage Bag </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="car" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Car & Shoe Care</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="mops" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mops, Brushes & Scrubs</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="stationery" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Stationery</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="pooja" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pooja Needs</button>
+  <mat-divider></mat-divider> 
+  <button mat-menu-item [matMenuTriggerFor]="bins" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bins & Bathroom Ware</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="party" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Party & Festive Needs</button>
+  
+</mat-menu>
+<mat-menu #detergent="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Detergent Bars</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dishwash Liquids & Pastes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dishwash Bars & Powders</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Detergent Powder, Liquid</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fabric Pre, Post Wash</button>
+</mat-menu>
+<mat-menu #cleaners="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Disinfectant Spray & Cleaners</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kitchen, Glass & Drain</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Floor & Other Cleaners</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Toilet Cleaners</button>
+</mat-menu>
+<mat-menu #freshners="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Insect Repellent</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mosquito Repellent</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Air Freshener</button>
+</mat-menu>
+<mat-menu #bag="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kitchen Rolls</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Garbage Bags</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Aluminium Foil, Clingwrap</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Toilet Paper</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Wet Wipe, Pocket Tissues</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Paper Napkin, Tissue Box</button>
+</mat-menu>
+<mat-menu #car="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Car Freshener</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Shoe Polish</button>
+</mat-menu>
+<mat-menu #mops="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Brooms & Dust Pans</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Utensil Scrub-pad, Glove</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Toilet & Other Brushes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dust Cloth & Wipes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mopes, Wipers</button>
+</mat-menu>
+<mat-menu #stationery="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Colours & Crayons</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Scissor, Glue & Tape</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pen, Pencils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Notebook, Files, Folders</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Exam Pads & Pencil Box</button>
+</mat-menu>
+<mat-menu #pooja="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Agarbatti, Incense Sticks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Other Pooja Needs</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Lamp & Lamp Oil</button>
+</mat-menu>
+<mat-menu #bins="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Buckets & Mugs</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dustbins</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bath Stool, Basin & Sets</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Laundry & Storage Baskets</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hangers, Clips & Rope</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Soap Cases & Dispensers</button>
+</mat-menu>
+<mat-menu #party="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Disposable Cups & Plates</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gift Wraps & Bags</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Rakhi</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Seasonal Accessories</button>
+</mat-menu>
+<mat-menu #kitchen="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="pet" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pet Food & Accessories</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="appliances" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Appliances & Electricals</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cookware" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cookware & Non Stick</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="storage" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Storage & Accessories</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="kitacc" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kitchen Accessories</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="steel" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Steel Utensils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="crockery" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Crockery & Cutlery</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="flask" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Flask & Casserole</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="bakeware" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bakeware</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="gardening" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gardening</button>
+</mat-menu>
+<mat-menu #pet="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pet Meals & Treats</button>
+</mat-menu>
+<mat-menu #appliances="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Battery & Electrical</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">CFL & LED Bulbs</button>
+</mat-menu>
+<mat-menu #cookware="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pressure Cookers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tawa & Sauce Pan</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cookware Sets</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cook & Serve</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kadai & Fry Pans</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gas Stove</button>
+</mat-menu>
+<mat-menu #storage="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Containers Sets</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Wall Hooks & Hangers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Water & Fridge Bottles</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Umbrella</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Racks & Holders</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Lunch Boxes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cloth Dryer & Iron Table</button>
+</mat-menu>
+<mat-menu #kitacc="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Knives & Peelers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chopper & Graters</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Lighters</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Kitchen Tools & Other Accessories</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Strainer, Ladle, Spatula</button>
+</mat-menu>
+<mat-menu #steel="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Plates & Tumblers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Copper Utensils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Steel Storage Containers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Steel Lunch Boxes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bowls & Vessels</button>
+</mat-menu>
+<mat-menu #crockery="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cups, Mugs & Tumblers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cutlery, Sppon & Fork</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Glassware</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Plates & Bowls</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dinner Sets</button>
+</mat-menu>
+<mat-menu #flask="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Vaccum Flask</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Casserole</button>
+</mat-menu>
+<mat-menu #bakeware="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bakeware Moulds, Catters</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Bakeware Accessories</button>
+</mat-menu>
+<mat-menu #gardening="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fertilizers & Pesticides</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pots, Planters & Trays</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Seeds & Saplings</button>
+</mat-menu>
+<mat-menu #eggs="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="egg" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Eggs</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="poultry" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Poultry</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="fish" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fish & Seafood</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="sausages" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sausages, Bacon & Salami</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="mutton" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mutton & Lamb</button>
+</mat-menu>
+<mat-menu #egg="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Farm Eggs</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Eggs</button>
+</mat-menu>
+<mat-menu #poultry="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fresh Chicken</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Chicken</button>
+</mat-menu>
+<mat-menu #fish="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fresh Fish</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Canned Seafood</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Fish & Seafood</button>
+</mat-menu>
+<mat-menu #sausages="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pork & Ham</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chicken Sausages</button>
+</mat-menu>
+<mat-menu #mutton="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Frozen Mutton</button>
+</mat-menu>
+
+<mat-menu #world="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="oils" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Oils & Vinegar</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="nuts" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Snacks, Dry Fruits, Nuts</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cereal" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cereals & Breakfast</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="drinks" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Drinks & Beverages</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cooking" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cooking & Baking Needs</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="pasta" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pasta, Soup & Noodles</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="cheese" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dairy & Cheese</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="dips" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sauces, Spreads & Dips</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="choco" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chocolates & Biscuits</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="tinned" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tinned & Processed Food</button>
+</mat-menu>
+<mat-menu #oils="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Extra Virgin Olive Oil</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pure, Pomace Olive Oil</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Flavoured & Other Oils</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Canda & Rapeseed Oil</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Balsamic & Cider Vinegar</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic & Cold Press Oil</button>
+  
+</mat-menu>
+<mat-menu #nuts="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Nachos & Chips</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Roasted Seeds & Nuts</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Healthy, Baked Snacks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Dry Fruits & Berries</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Trail & Cocktail Mixes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gourmet Popcorn</button>
+  
+</mat-menu>
+<mat-menu #cereal="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Muesli & Rice Cakes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cereal & Granola Bars</button>
+</mat-menu>
+<mat-menu #drinks="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Coffee & Pre-Mix</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gourmet Tea & Tea Bags</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Health Drinkd</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Gourmet Juices & Drinks</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Aerated, Still, Sparkling</button>
+  <mat-divider></mat-divider>
+</mat-menu>
+<mat-menu #cooking="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Exotic Sugar & Salt</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cooking Chocolate, Cocoa</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Quinoa & Grains</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Curry Paste, Coconut Milk</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Flours & Pre-Mixes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Herbs, Seasoning & Rubs</button>
+  
+</mat-menu>
+<mat-menu #pasta="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Pasta & Spaghetti</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Imported Soups</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Imported Noodles</button>
+</mat-menu>
+<mat-menu #cheese="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Flavoured & Greek Yogurt</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tofu</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">International Cheese</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cream & Cheese Spreads</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Butter & Cream</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Milk & Soya Drinks</button>
+</mat-menu>
+<mat-menu #dips="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Chocolate, Peanut Spread</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Hummus, Cheese, Salsa Dip</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Honey, Maple, Syrup</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Thai & Asian Sauces</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Jams, Marmalade, Spreads</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Salad Dressings</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mustard & Cheese Sauces</button>
+</mat-menu>
+<mat-menu #choco="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Luxury Chocolate, Gifts</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">International Chocolates</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Cookies, Biscotti, Wafer</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Crackers & Digestive</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Marshmallow, Candy, Jelly</button>
+  <mat-divider></mat-divider>
+</mat-menu>
+<mat-menu #tinned="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fish & Tuna</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Olive, Jalapeno, Gherkin</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Tomatoes & Vegetables</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Beans & Pulses</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Fruits & Pulps</button>
+  
+</mat-menu>
+<mat-menu #baby="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="wipes" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Diapers & Wipes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="formula" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Food & Formula</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="babybath" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Bath & Hygiene</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="mother" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Mothers & Maternity</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item [matMenuTriggerFor]="feeding" style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Feeding & Nursing</button>
+</mat-menu>
+<mat-menu #wipes="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Diapers</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Wipes</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Nappies & Rash Cream</button>
+</mat-menu>
+<mat-menu #formula="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Infant Formula</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Food</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Organic Baby Food</button>
+</mat-menu>
+<mat-menu #babybath="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Creams & Lotions</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Oil & Shampoo</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Bath </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Powder</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Laundry</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Health</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Gift Sets</button>
+</mat-menu>
+<mat-menu #mother="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Maternity Personal Care</button>
+</mat-menu>
+<mat-menu #feeding="matMenu">
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Nursing Tool</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Sippers & Bottles</button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item style="width:250px;height:43px;margin-top: -15px;font-size: 14px;font-family: ProximaNovaA-Semibold;color: grey;margin-top: -4px;">Baby Dishes & Utensils</button>
+</mat-menu>
+<button mat-button class="offer" style="width:100px;color: grey;">OFFERS
+</button>
+
+</div>

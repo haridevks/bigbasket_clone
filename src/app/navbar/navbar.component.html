@@ -1,0 +1,68 @@
+
+<!--Mobile view Header start-->
+<div id="content-mobile" style="overflow-x: hidden;   background-color:yellowgreen;height: 80px;width: 100%;">
+  <mat-toolbar style="background-color:yellowgreen;position: static;">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+     <mat-icon>menu</mat-icon>
+   </button>
+   <mat-icon (click)="onCreate()" class="login"  style="margin-left: 30px;margin-top: -14px;">person_outline </mat-icon>
+   <img src="../../assets/images/bb-lg.png" style="margin-left: 50px;margin-top: -11px;">
+   <mat-icon class="location" (click)="openDialog()" style="color:black;margin-left: 40px;margin-top:-11px;">location_on</mat-icon>
+   <mat-icon  style="margin-left: 50px;margin-top: -11px;">shopping_cart</mat-icon>
+   </mat-toolbar>
+   
+   <input type="search" class="search" placeholder="  Search for Products.." style="border:1px solid lightgray;width: 350px;margin-top: -96px;height: 27px;margin-left:15px;">
+   
+</div>
+<!--Mobile view Header end-->
+   <div id="content-desktop"  >
+   <mat-toolbar class="toolbar"  style="background-color:transparent;" >
+      
+      <div class="logo">
+          <img src="../../assets/images/bb_logo.png" alt="bb-logo">
+      </div>
+      
+      <div class="menu"></div>
+      <mat-icon class="phone" style="margin-top:-25px;margin-right: -5px;color: gray;">phone</mat-icon>
+      
+    <span style="font-size: 13px;color: gray;text-align: -webkit-match-parent;margin-top: -25px;margin-right:60px;"  >1860 123 1000</span>
+
+
+    <div  style="background-color:transparent;width: 70px;margin-right: 200px;">
+      
+      <mat-icon class="location" style="margin-top: -25px;color:grey;margin-right: 1px;">location_on</mat-icon>
+      <button mat-raised-button (click)="openDialog()" class="loc-button" style="height: 26px;margin-top:-35px;color: grey;font-size: 14px;text-align: left;box-shadow: none;margin-left: -5px;">Location
+      </button>
+    
+  
+  </div>
+      <mat-icon class="person" style="margin-top:-25px ;">person_outline </mat-icon>
+      <button mat-raised-button (click)="onCreate()" class="login" id="login"   style="font-size: 13px;text-decoration: none;margin-right:10px;margin-top: -25px;box-shadow: none;color: grey;">Login</button>
+      <span style="font-size: 13px; margin-right: 10px;margin-top: -25px;">|</span>
+      <button mat-raised-button (click)="onCreate()" id="sign" class="sign-up" style="font-size: 13px;text-decoration: none;margin-left:-5px;margin-right: 89px;margin-top:-25px;box-shadow: none;">Sign up</button>
+      
+    </mat-toolbar>
+  
+    
+    <input type="search" class="search" placeholder="  Search for Products.." style="width: 500px;margin-left: 380px;height: 30px;margin-top: -15px;border:1px solid;"/>
+    <div style="background-color: yellowgreen;width:60px;height:20px;margin-right: 10px;margin-left: 825px;margin-top: -22px;">
+    <button mat-button class="search-btn" style="background-color: yellowgreen;height: 30px;width: 5px;margin-bottom: 780px;margin-top: -20px;">
+      <mat-icon class="material-icons" style="margin-left: -10px;color: white;height: 25px;width: 30px;">search</mat-icon>
+    </button>
+  </div>
+  <div id="button-div"    style="background-color: chartreuse;width: 150px;height: 20px;margin-left: 920px;margin-top: -29px;">
+   <button mat-button routerLink="/bbstar" routerLinkActive="active"    class="bbstar"   style="background-image: url('../../assets/images/button.png');width: 150px;height: 30px;"></button>
+  </div>
+  
+  <div id="basket" style="background-color:transparent;width: 200px;height: 30px;margin-left: 1090px;margin-top: -39px;">
+    <p style="margin-left:80px ;margin-top:15px;color: #4d4d4d;font-size: 13px ;">My Basket</p>
+    <p style="margin-left:80px ;margin-top:-15px;color: #4d4d4d;font-size: 13px ProximaNovaA-Semibold;">0 items</p>
+  
+    
+    <img src="../../assets/images/basket.png" width="100px" height="50px" style="margin-left:-20px ;margin-top: -73px;"/>
+   
+    
+      
+  </div>
+  
+</div>

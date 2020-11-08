@@ -1,0 +1,295 @@
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+a:hover{
+    color: #096;
+}
+li{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+mat-checkbox:hover{
+    color: #096;
+
+}
+.home{
+    color: #808285;
+    font: 400 10px/11px Lato,sans-serif;
+}
+.home:hover{
+    color: #096;
+}
+@media screen and (max-width:425px){
+    .eggsmeat{
+        overflow-x: hidden;
+    }
+    .carousel{
+        max-width: 370px;
+    }
+    .image1{
+        width: 100%;
+    }
+    .image2{
+        width: 100%;
+    }
+    .image3{
+        width: 100%;
+    }
+.section1{
+    margin-left: -80px;
+}
+.category{
+    display: none;
+}
+mat-checkbox{
+    display: none;
+}
+mat-divider{
+    display: none;
+}
+#category{
+    display: none;
+}
+#brand-title{
+    display: none;
+}
+#capacity-title{
+    display: none;
+}
+#search-brand{
+    display: none;
+}
+#search-icon{
+    display: none;
+}
+#food-preference{
+    display: none;
+}
+.country{
+    display: none;
+}
+#price-title{
+    display: none;
+}
+#discount-title{
+    display: none;
+}
+#pack-size{
+display: none;
+}
+.eggs{
+    margin-left: -310px;
+    margin-top: 420px;
+}
+#all-products{
+    margin-left: -250px;
+    margin-top: -30px;
+}
+#bus-img{
+    margin-left: -270px;
+}
+.banner-section{
+    max-width: 400px;
+    height:490vh;
+}
+.fresho{
+    margin-top: 10px;
+    margin-left: -260px;
+}
+.brown{
+    margin-left: -530px;
+    margin-top: 400px;
+}
+.farm-made{
+    margin-left: -800px;
+    margin-top: 400px;
+}
+.pork{
+    margin-left: -260px;
+}
+.ham-chicken{
+    margin-left: -530px;
+    margin-top: 440px;
+}
+.tandoori{
+    margin-top: 440px;
+    margin-left: -800px;
+}
+.Champagine{
+    margin-left: -260px;
+    margin-top: -10px;
+}
+.chilli{
+    margin-left: -530px;
+    margin-top: 440px;
+}
+.chicken-pariser{
+    margin-left: -800px;
+    margin-top: 440px;
+}
+ .footer{
+    display: none;
+ }   
+}
+@media screen and (max-width:385px){
+    .carousel{
+        max-width: 330px;
+    }
+}
+@media screen and (max-width:320px){
+    .carousel{
+        max-width: 250px;
+    }
+    .section1{
+        margin-left: -70px;
+    }
+    .fresho{
+        margin-top: 10px;
+        margin-left: -320px;
+    }
+    .brown{
+        margin-left: -590px;
+        margin-top: 400px;
+    }
+    .farm-made{
+        margin-left: -860px;
+        margin-top: 400px;
+    }
+    .pork{
+        margin-left: -320px;
+    }
+    .ham-chicken{
+        margin-left: -590px;
+        margin-top: 440px;
+    }
+    .tandoori{
+        margin-top: 440px;
+        margin-left: -860px;
+    }
+    .Champagine{
+        margin-left: -320px;
+        margin-top: -10px;
+    }
+    .chilli{
+        margin-left: -590px;
+        margin-top: 440px;
+    }
+    .chicken-pariser{
+        margin-left: -860px;
+        margin-top: 440px;
+    }
+}   
+@media screen and (min-width:426px) and (max-width:800px){
+    .eggsmeat{
+        overflow-x: hidden;
+    }
+    .carousel{
+        max-width: 730px;
+    }
+    .image1{
+        width: 100%;
+    }
+    .image2{
+        width: 100%;
+    }
+    .image3{
+        width: 100%;
+    }
+.section1{
+    margin-left: -80px;
+}
+.category{
+    display: none;
+}
+mat-checkbox{
+    display: none;
+}
+mat-divider{
+    display: none;
+}
+#category{
+    display: none;
+}
+#brand-title{
+    display: none;
+}
+#capacity-title{
+    display: none;
+}
+#search-brand{
+    display: none;
+}
+#search-icon{
+    display: none;
+}
+#food-preference{
+    display: none;
+}
+.country{
+    display: none;
+}
+#price-title{
+    display: none;
+}
+#discount-title{
+    display: none;
+}
+#pack-size{
+display: none;
+}
+.eggs{
+    margin-left: -80px;
+    margin-top: 420px;
+}
+#all-products{
+    margin-left: -80px;
+    margin-top: -30px;
+}
+#bus-img{
+    margin-left: -90px;
+}
+.banner-section{
+    max-width: 400px;
+    height:140vh;
+}
+.fresho{
+    margin-left: -340px;
+    max-height: 450px;
+}
+.brown{
+    margin-left: -360px;
+    margin-top: -10px;
+}
+.farm-made{
+    margin-left: -380px;
+    margin-top: -20px;  
+}
+.pork{
+    margin-left: -340px;
+}
+.ham-chicken{
+    margin-left: -360px;
+    margin-top: -10px;
+}
+.tandoori{
+    margin-top: -20px;
+    margin-left: -380px;
+}
+.Champagine{
+    margin-left: -340px;
+    margin-top: -10px;
+}
+.chilli{
+    margin-left: -360px;
+    margin-top: -10px;
+}
+.chicken-pariser{
+    margin-left: -380px;
+    margin-top: -30px;
+}
+ .footer{
+    display: none;
+ }   
+}

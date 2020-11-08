@@ -1,0 +1,259 @@
+.home{
+    color: #808285;
+    font: 400 10px/11px Lato,sans-serif;
+}
+.home:hover{
+    color: #096;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+a:hover{
+    color: #096;
+}
+li{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+mat-checkbox:hover{
+    color: #096;
+    
+}
+@media screen and (max-width:425px){
+    .chips-namkeens{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    #food{
+        display: none;
+    }
+    #cooking{
+        display: none;
+    }
+    .chips{
+        margin-left: -310px;
+        margin-top: 360px;
+       }
+    
+        #all-products{
+            margin-left: -250px;
+            margin-top: -10px;
+        }
+        #bus-img{
+            margin-left: -270px;
+        }
+        .banner-section{
+            max-width: 400px;
+            height:550vh;
+        }
+        .papad{
+            margin-top: 10px;
+        margin-left: -260px; 
+        }
+        .namkeen{
+            margin-left: -530px;
+            margin-top: 425px;   
+        }
+        .pringles{
+            margin-left: -800px;
+            margin-top: 425px;  
+        }
+     .wheat{
+        margin-left: -260px;
+        margin-top: -15px;  
+     }   
+     .potato{
+        margin-left: -530px;
+        margin-top: 430px;   
+     }
+     .banana{
+        margin-top: 430px;
+        margin-left: -800px;
+     }
+     .pizza{
+        margin-left: -260px;
+        margin-top: -10px;
+     }
+     .popcorn{
+        margin-left: -530px;
+        margin-top: 430px;   
+     }
+     .puffs{
+        margin-left: -800px;
+        margin-top: 430px;   
+     }
+}
+@media screen and (max-width:375px){
+.banner-section{
+    max-width: 400px;
+    height:490vh;
+}
+}
+@media screen and (max-width:320px){
+    .papad{
+        margin-top: 10px;
+    margin-left: -320px; 
+    }
+    .namkeen{
+        margin-left: -590px;
+        margin-top: 425px;   
+    }
+    .pringles{
+        margin-left: -860px;
+        margin-top: 425px;  
+    }
+ .wheat{
+    margin-left: -320px;
+    margin-top: -15px;  
+ }   
+ .potato{
+    margin-left: -590px;
+    margin-top: 430px;   
+ }
+ .banana{
+    margin-top: 430px;
+    margin-left: -860px;
+ }
+ .pizza{
+    margin-left: -320px;
+    margin-top: -10px;
+ }
+ .popcorn{
+    margin-left: -590px;
+    margin-top: 430px;   
+ }
+ .puffs{
+    margin-left: -860px;
+    margin-top: 430px;   
+ } 
+}
+@media screen and (min-width:426px) and (max-width:800px){
+    .chips-namkeens{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    #food{
+        display: none;
+    }
+    #cooking{
+        display: none;
+    }
+    .chips{
+        margin-left: -110px;
+        margin-top: 360px;
+       }
+    
+        #all-products{
+            margin-left: -150px;
+            margin-top: -10px;
+        }
+        #bus-img{
+            margin-left: -170px;
+        }
+        .banner-section{
+            max-width: 400px;
+            height:140vh;
+        }
+        .papad{
+            margin-top: 10px;
+        margin-left: -340px; 
+        }
+        .namkeen{
+            margin-left: -360px;
+            margin-top: -10px;   
+        }
+        .pringles{
+            margin-left: -380px;
+            margin-top: -10px;  
+        }
+     .wheat{
+        margin-left: -340px;
+        margin-top: -10px;  
+     }   
+     .potato{
+        margin-left: -360px;
+        margin-top: -18px;   
+     }
+     .banana{
+        margin-top: -18px;
+        margin-left: -380px;
+     }
+     .pizza{
+        margin-left: -340px;
+        margin-top: -10px;
+     }
+     .popcorn{
+        margin-left: -360px;
+        margin-top: -18px;   
+     }
+     .puffs{
+        margin-left: -380px;
+        margin-top: -18px;   
+     } 
+}

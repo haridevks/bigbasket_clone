@@ -1,0 +1,24 @@
+.login-content{
+    width: 320px;
+    height: 400px;
+    background: #fff;
+    
+    
+    
+}
+a:hover{
+    cursor: pointer;
+}
+a{
+   font-family:  ProximaNovaA-Semibold;
+   font-size: 16px;
+   text-decoration:none;
+   
+   color:#84c225;
+}
+@media screen and (min-width:1px) and (max-width:350px){
+.otp{
+    max-width: 150px;
+}
+
+}

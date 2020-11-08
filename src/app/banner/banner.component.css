@@ -1,0 +1,1691 @@
+
+.section-title{
+
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.season{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+}
+
+.fruits{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.daily-staples{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+}
+.snack{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+}
+
+.drinks{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+}
+
+.cleaning{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+
+}
+.beauty-title{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+}
+.home-kitchen{
+    
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.brand-store{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.featured{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 24px;
+
+}
+.container{
+    width:100%;
+    margin:40px auto;
+    margin-top:-250px;   
+}
+.container1{
+    width:100%;
+    margin:40px auto;
+    margin-top:-200px;    
+}
+.citi-bank{
+    width: 20%; 
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.citi-bank:hover{
+    transform: scale(1.05);
+}
+
+.icici-bank{
+    width: 20%; 
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.icici-bank:hover{
+    transform: scale(1.05);
+}
+.hsbc-bank{
+    width: 20%; 
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.hsbc-bank:hover{
+    transform: scale(1.05);
+}
+.idbi-bank{
+    width: 20%; 
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.idbi-bank:hover{
+    transform: scale(1.05);
+}
+.Tea{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+   
+}
+
+.Tea:hover{
+    transform: scale(1.05);
+}
+.Coffe{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);  
+}
+.Coffe:hover{
+    transform: scale(1.05);
+}
+.Juice{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);  
+}
+.Juice:hover{
+    transform: scale(1.05);
+}
+.Pediasure{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);  
+}
+.Pediasure:hover{
+    transform: scale(1.05);
+}
+.mask-gloves{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.mask-gloves:hover{
+    transform: scale(1.05);
+}
+.sanitizers{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.sanitizers:hover{
+    transform: scale(1.05);
+}
+.stationaries{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.stationaries:hover{
+    transform: scale(1.05);
+}
+.beauty-hygiene{
+    width: 20%;
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.beauty-hygiene:hover{
+    transform: scale(1.05);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.card3{
+    width: 20%;
+    
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+    
+}
+.card3:hover{
+    transform: scale(1.05);
+}
+.machine-wash{
+    width: 20%;
+    
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.machine-wash:hover{
+    transform: scale(1.05);
+}
+.liquid-detergent{
+    width: 20%;
+    
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.liquid-detergent:hover{
+    transform: scale(1.05); 
+}
+.pooja{
+    
+    
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.pooja:hover{
+    transform: scale(1.05);   
+}
+.card4{
+    width: 20%;
+    
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);   
+}
+.crockery{
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.crockery:hover{
+    transform: scale(1.05);
+}
+.card4:hover{
+    transform: scale(1.05);
+}
+.under-149{
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.under-149:hover{
+    transform: scale(1.05);
+}
+.cookware{
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);   
+}
+.cookware:hover{
+    transform: scale(1.05); 
+}
+.bins-bathware{
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.bins-bathware:hover{
+    transform: scale(1.05); 
+}
+.rs{
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.rs:hover{
+    transform: scale(1.05); 
+}
+.card5{
+    width: 20%;
+    
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+    
+}
+.card5:hover{
+    transform: scale(1.05);
+}
+.cocacola{
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);   
+}
+.cocacola:hover{
+    transform: scale(1.05);  
+}
+.patanjali{
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);   
+}
+.patanjali:hover{
+    transform: scale(1.05);   
+}
+.card{
+    width: 20%;
+    
+    transition: 0.3s;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);   
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:425px){
+    
+.carousel{
+    width: 430px;
+    margin-left: -10px;
+    margin-top:2px; 
+    
+    
+}
+.banner1{
+    width: 100%;
+    
+}
+.banner3{
+    width: 100%;
+    
+}
+.banner4{
+    width: 100%;
+   
+}
+.banner5{
+    width: 100%;
+    
+}
+
+
+.home{
+    max-width: 140px;
+    margin-top: -25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.egg{
+    max-width: 140px;
+    margin-top: -65px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.measures{
+    max-width: 140px;
+    margin-top: -18px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.bb-star{
+    max-width: 140px;
+    margin-left: 170px;
+    margin-top: -65px;
+    margin-right: 170px;
+}
+.combo{
+    max-width: 140px;
+    margin-top: -18px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.deals{
+    max-width: 140px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: -65px;
+}
+
+.carousel2{
+    margin-top:30px; 
+    max-width: 390px;
+    
+}
+.organic{
+    width:100%;   
+}
+.ganesh{
+    width: 100%;   
+}  
+.healthy{
+    width:100%;   
+}
+.hardin{
+    width:100%;   
+}
+.payment{
+    width: 100%;  
+}
+.section-1{
+    margin-left: -70px;
+    margin-right: -70px;
+}
+.section-title{
+    max-width: 300px;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+mat-divider{
+    display: none;
+}
+.container{
+    width: 20%;
+}
+
+#citi{
+    max-width: 170px;
+    margin-left: -50px;
+}
+#icici{
+    max-width: 170px;
+    margin-left: 110px;
+}
+#hsbc{
+    max-width: 170px;
+    margin-top: 205px;
+    margin-left: -110px;
+}
+#idbi{
+    max-width: 170px;
+    margin-left: 110px;
+    margin-top: -213px;
+}
+.section{
+    max-width: 350px;
+    margin-top: -30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    font-size: 25px;
+}
+.container1{
+    width: 100%;
+    
+}
+.mask-gloves{
+    max-width: 200px;
+    max-height: 150px;
+    margin-right: 200px;
+}
+
+#mask{
+    max-width: 200px;
+    max-height: 150px;
+}
+.sanitizers{
+    max-width: 200px;  
+    max-height: 150px;
+    margin-right: 10px;
+}
+#sanitarizer{
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.stationaries{
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: 160px;
+    margin-right: 20px;
+}
+#stationery{
+    max-width: 200px;
+    max-height: 150px;  
+}
+.beauty-hygiene{
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: -150px;
+    margin-right:180px;
+    margin-left: -50px;
+}
+#hygiene{
+    max-width: 200px;
+    max-height: 150px;
+    margin-left: 100px;
+
+}
+    .fruits{
+        width: 280px;
+        margin-left: -40px;
+        margin-top: -20px;
+    }
+    #organic-store{
+        display: none;
+    }
+    
+    .mat-grid-list{
+        width: 84%;
+        margin-left: -650px;
+        margin-top: 336px;
+    }
+    #fresh-fruits{
+        max-width: 200px;
+        max-height: 130px;
+    }
+    .exotic{
+        margin-top: -73px;
+    }
+    #daily-vegetables{
+        max-width: 200px;
+        max-height: 170px;
+    }
+    #herbs-seasoning{
+        max-width: 200px;
+        max-height: 170px;   
+    }
+    #exotic-corner{
+        max-width: 200px;
+        max-height: 170px;
+    }
+    .herbs{
+        margin-top: -73px;
+    }
+    .fresh{
+        margin-top: 30px;
+    }
+    .card{
+        max-width: 180px;
+        max-height: 170px;
+    }
+    .daily{
+        margin-top: 30px;
+    }
+   .daily-staples{
+       margin-left: 10px;
+       width: 250px;
+       margin-top: -140px;
+   }
+   
+   #atta-img{
+       max-width: 180px;
+       max-height: 170px;
+       margin-left: -70px;
+   }
+   #rice{
+       margin-left: 6px;
+   }
+   #rice-img{
+       max-width: 180px;
+       max-height: 170px;
+       margin-left: 90px;
+   }
+   #oil-img{
+    max-width: 180px;
+    max-height: 170px;
+    margin-top: 160px;
+    margin-left: -90px;
+   }
+   #oil{
+    margin-left: -10px; 
+    margin-top: 10px;
+   }
+   #salt-img{
+    max-width: 180px;
+    max-height: 170px;
+    margin-top: 160px;
+    margin-left: 60px;
+   }
+   #salt{
+    margin-left: 6px;
+    margin-top: 10px;
+   }
+   #snack-corner{
+      max-width: 250px;
+      max-height: 190px;
+   }
+   .snack{
+    width: 350px;
+    margin-top: 196px;
+    margin-left: -50px;
+}
+mat-grid-list img{
+    max-width: 200px;
+   max-height: 170px; 
+}
+#biscuits{
+   display: none;  
+}
+
+#frozen{ 
+   display: none;
+}
+#sauce{
+   margin-top: -40px; 
+}
+#soups{
+ margin-top: -40px;
+ margin-right: -5px;
+}
+.container2{
+    max-width:220px;
+    max-height:460px;
+}
+  .drinks{
+      margin-left: -10px;
+      width: 250px;
+      margin-top: -90px;
+      max-height: 30px;
+  }
+
+  .Tea{
+      display: none;
+      
+  }
+  .Tea img{
+    max-width: 170px;
+    max-height: 170px;
+    margin-left: -800px;
+  }
+  .Coffe{
+    max-width: 170px;
+    max-height: 170px;
+    margin-right: 320px;
+    display: none;
+  }
+  .Coffe img{
+    max-width: 170px;
+    max-height: 170px;   
+  }
+  
+  .Juice{
+    max-width: 250px;
+    max-height: 200px;    
+  }
+  .Juice img{
+    max-width: 250px;
+    max-height: 200px;  
+  }
+  .Pediasure{
+    max-width: 250px;
+    max-height:200px;  
+  }
+  .Pediasure img{
+    max-width:250px;
+    max-height:200px;
+  }
+  
+  .cleaning{
+      width: 250px;
+      margin-left: 20px;
+  }
+
+
+.machine-wash{
+    margin-left: -40px;
+    max-width: 200px;
+    max-height: 170px;
+}
+.liquid-detergent{
+    display: none;
+}
+.card3{
+    display: none;
+}
+.card3 img{
+    display: none;
+}
+.pooja{
+    margin-top: -350px;
+    margin-left: 180px;
+}
+
+.beauty-title{
+    margin-left: 40px;
+      width: 270px;
+      margin-top: -270px;
+      font-size: 25px;
+      text-decoration: solid;
+}
+#soaps-shower{
+    max-width: 250px;
+    max-height: 190px;
+}
+
+  .home-kitchen{
+      width: 350px;
+      margin-left: -40px;
+      margin-top: -230px;
+  }
+  .card4{
+      display: block;
+  }
+  .card4 img{
+      display: block;
+  }
+  .under-149{
+      display: none;
+  }
+  #party-essentials{
+      margin-left: 397px;
+      margin-top: -210px;
+  }
+  .crockery{
+    margin-top: -299px;
+    margin-left: 140px; 
+  }
+   
+  .bins-bathware  {
+      display: none;
+  }
+  .cookware{
+      display: none;
+  }
+  .rs{
+      display: none;
+  }
+
+ 
+  .brand-store{
+      width: 250px;
+      margin-left: 10px;
+      margin-top: -230px;
+  }
+  .card5{
+      display:none;
+  }
+  .cocacola{
+      margin-left: 170px;
+  }
+  .patanjali{
+      margin-left: 320px;
+  }
+.featured{
+    width: 250px;
+    margin-left: 20px;
+    margin-top:-30px;
+}
+.carousel3{
+    max-width:390px;
+}
+.slide-show{
+    margin-left: -80px;
+}
+    .slide1{
+        width: 100%;
+    }
+    .slide2{
+        width: 100%;
+    }
+    .slide3{
+        width: 100%;
+    }
+    .slide4{
+        width: 100%;
+    }
+    .slide5{
+        width: 100%;
+    }
+    .slide6{
+        width: 100%;
+    }
+    .online-grocery{
+        max-width: 395px;
+        max-height: 950px;
+        margin-left: -50px;    
+    }
+    
+    border{
+        display: none;
+    }
+    .grocery{
+        margin-left: -85px;       
+    }
+    ul{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+}
+@media screen and (max-width:385px){
+    .carousel2{
+        margin-top:30px; 
+        max-width: 350px;       
+    }
+    .organic{
+        width:100%;   
+    }
+    .ganesh{
+        width: 100%;   
+    }  
+    .healthy{
+        width:100%;   
+    }
+    .hardin{
+        width:100%;   
+    }
+    .payment{
+        width: 100%;  
+    }
+    #citi{
+        max-width: 150px;
+        margin-left: -40px;
+    }
+    #icici{
+        max-width: 150px;
+        margin-left: 100px;
+    }
+    #hsbc{
+        max-width: 150px;
+        margin-top: 205px;
+        margin-left: -90px;
+    }
+    #idbi{
+        max-width: 150px;
+        margin-left: 100px;
+        margin-top: -213px;
+    }
+    .mask-gloves{
+        max-width: 180px;
+        max-height: 150px;
+        margin-right: 200px; }
+    
+    #mask{
+        max-width: 180px;
+        max-height: 150px;
+    }
+    .sanitizers{
+        max-width: 180px;  
+        max-height: 150px;
+        margin-right: 10px;
+    }
+    #sanitarizer{
+        max-width: 180px;
+        max-height: 150px;
+    }
+    
+    .stationaries{
+        max-width: 180px;
+        max-height: 150px;
+        margin-top: 160px;
+        margin-right: 20px;
+    }
+    #stationery{
+        max-width: 180px;
+        max-height: 150px;  
+    }
+    .beauty-hygiene{
+        max-width: 180px;
+        max-height: 150px;
+        margin-top: -150px;
+        margin-right:180px;
+        margin-left: -50px;
+    }
+    #hygiene{
+        max-width: 180px;
+        max-height: 150px;
+        margin-left: 106px;  
+    }
+    #fresh-fruits{
+        max-width: 180px;
+        max-height: 130px;
+    }
+    .exotic{
+        margin-top: -73px;
+    }
+    #daily-vegetables{
+        max-width: 180px;
+        max-height: 170px;
+    }
+    #herbs-seasoning{
+        max-width: 180px;
+        max-height: 170px;   
+    }
+    #exotic-corner{
+        max-width: 180px;
+        max-height: 170px;
+    }
+    .mat-grid-list{
+        width: 84%;
+        margin-left: -666px;
+        margin-top: 336px;
+    }
+    mat-grid-list img{
+        max-width: 170px;
+       max-height: 170px; 
+    }
+    .pooja{
+        margin-top: -350px;
+        margin-left: 160px;
+    }
+    #party-essentials{
+        margin-left: 380px;
+        margin-top: -210px;
+    }
+    .cocacola{
+        margin-left: 155px;
+    }
+    .patanjali{
+        margin-left: 300px;
+    }
+ .carousel3{
+        max-width:370px;
+    }
+    .slide-show{
+        margin-left: -85px;
+    }
+    .online-grocery{
+        max-width: 365px;
+        max-height: 950px;
+        margin-left: -50px;    
+    }    
+    #atta-img{
+        max-width: 160px;
+        max-height: 170px;
+        margin-left: -70px;
+    }
+    #rice-img{
+        max-width: 160px;
+        max-height: 170px;
+        margin-left: 90px;
+    }
+    #oil-img{
+        max-width: 160px;
+        max-height: 170px;
+        margin-top: 160px;
+        margin-left: -90px;
+       }
+       #salt-img{
+        max-width: 160px;
+        max-height: 170px;
+        margin-top: 160px;
+        margin-left: 60px;
+       }
+}
+@media screen and (max-width:365px){
+    .carousel{
+        width: 400px;
+        margin-left: -10px;
+        margin-top:2px;     
+    } 
+    .carousel2{
+        margin-top:40px; 
+        max-width: 345px;
+    }     
+    #citi{
+        max-width: 160px;
+        margin-left: -70px;
+        max-height: 130px;
+    }
+    #icici{
+        max-width: 160px;
+        margin-left:60px;
+        max-height: 130px;
+    }
+    #hsbc{
+        max-width: 160px;
+        margin-top: 10px;
+        margin-left: -70px;
+        max-height: 130px;
+    }
+    #idbi{
+        max-width: 160px;
+        margin-left: 60px;
+        margin-top: 10px;
+        max-height: 130px;
+    }   
+    .section{
+        max-width: 350px;
+        margin-top: -30px;
+        margin-left: -45px;
+        margin-right: -15px;
+        font-size: 25px;
+    }
+    .mat-grid-list{
+        width: 84%;
+        margin-left: -680px;
+        margin-top: 336px;
+    }
+    #fresh-fruits{
+        max-width: 160px;
+        max-height: 140px;
+    }
+    .exotic{
+        margin-top: -73px;
+    }
+    #daily-vegetables{
+        max-width: 160px;
+        max-height: 140px;
+    }
+    #herbs-seasoning{
+        max-width: 160px;
+        max-height: 140px;   
+    }
+    #exotic-corner{
+        max-width: 160px;
+        max-height: 140px;
+    }
+    #atta-img{
+        max-width: 150px;
+        max-height: 140px;
+        margin-left: -70px;
+    }
+    #rice{
+        margin-left: 6px;
+    }
+    #rice-img{
+        max-width: 150px;
+        max-height: 140px;
+        margin-left: 70px;
+    }
+    #oil-img{
+     max-width: 150px;
+     max-height: 140px;
+     margin-top: 140px;
+     margin-left: -90px;
+    }
+    #oil{
+     margin-left: -10px; 
+     margin-top: 10px;
+     max-height: 2px;
+    }
+    #salt-img{
+     max-width: 150px;
+     max-height: 140px;
+     margin-top: 140px;
+     margin-left: 40px;
+    }
+    #salt{
+     margin-left: 6px;
+     margin-top: 10px;
+     max-height: 2px;
+    }
+    .machine-wash{
+        margin-left: -70px;
+        max-width: 200px;
+        max-height: 170px;
+    }   
+    .pooja{
+        margin-top: -350px;
+        margin-left: 140px;
+    }
+    .card4 img{
+        display: block;
+        max-width: 160px;
+    }
+    #party-essentials{
+        margin-left: 370px;
+        margin-top: -210px;
+    }
+    .crockery{
+      margin-top: -299px;
+      margin-left: 140px; 
+      max-width: 160px;
+    }
+    .cocacola{
+        margin-left: 160px;
+        max-width: 170px;
+    }
+    .patanjali{
+        margin-left: 300px;
+        max-width: 170px;
+    }
+    .carousel3{
+        max-width:340px;
+    }
+    .slide-show{
+        margin-left: -80px;
+    }
+    .online-grocery{
+        max-width: 355px;
+        max-height: 950px;
+        margin-left: -50px;    
+    } 
+}
+@media screen and (max-width: 320px){
+    .carousel{
+        width: 330px;
+        margin-left: -10px;
+        margin-top:2px;      
+    }
+    .home{
+        max-width: 110px;
+        margin-top: -25px;
+        margin-left: -25px;
+        margin-right: 5px;
+    }
+    .egg{
+        max-width: 110px;
+        margin-top: -65px;
+        margin-left: 110px;
+        margin-right: 170px;
+    }
+    .measures{
+        max-width: 110px;
+        margin-top: -18px;
+        margin-left: -25px;
+        margin-right: 7px;
+    }
+    .bb-star{
+        max-width: 110px;
+        margin-left: 110px;
+        margin-top: -65px;
+        margin-right: 170px;
+    }
+    .combo{
+        max-width: 110px;
+        margin-top: -18px;
+        margin-left: -25px;
+        margin-right: 7px;
+    }
+    .deals{
+        max-width: 110px;
+        margin-left: 110px;
+        margin-right: 170px;
+        margin-top: -65px;
+    }
+    .carousel2{
+        margin-top:35px; 
+        max-width: 298px;   
+    }
+    .section-1{
+        margin-left: -77px;
+        margin-right: -70px;
+    }
+    .section-title{
+        max-width: 300px;
+        margin-top: -10px;
+        margin-left: -55px;
+        margin-right: -15px;
+    }
+    #citi{
+        max-width: 130px;
+        margin-left: -70px;
+    }
+    #icici{
+        max-width: 130px;
+        margin-left: 30px;
+    }
+    #hsbc{
+        max-width: 130px;
+        margin-top: 5px;
+        margin-left: -70px;
+    }
+    #idbi{
+        max-width: 130px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    .section{
+        max-width: 300px;
+        margin-top: -30px;
+        margin-left: -35px;
+        margin-right: -15px;
+        font-size: 25px;
+    }
+    .mask-gloves{
+        max-width: 130px;
+        max-height: 130px;
+        margin-right: 200px;
+        margin-top: 20px;
+    }
+    
+    #mask{
+        max-width: 130px;
+        max-height: 130px;
+    }
+    .sanitizers{
+        max-width: 130px;  
+        max-height: 130px;
+        margin-right:56px;
+        margin-top: 20px;
+    }
+    #sanitarizer{
+        max-width: 130px;
+        max-height: 130px;
+    }
+    
+    .stationaries{
+        max-width: 130px;
+        max-height: 130px;
+        margin-top: 160px;
+        margin-right: 50px;
+    }
+    #stationery{
+        max-width: 130px;
+        max-height: 130px;  
+    }
+    .beauty-hygiene{
+        display: none;
+    }
+    #hygiene{
+        max-width: 130px;
+        max-height: 130px;
+        margin-left: 100px 
+    }
+    .fruits{
+        width: 280px;
+        margin-left: -90px;
+        margin-top: 20px;
+    }  
+    .mat-grid-list{
+        width: 84%;
+        margin-left: -680px;
+        margin-top: 306px;
+    }
+    #fresh-fruits{
+        max-width: 135px;
+        max-height: 140px;
+        margin-left: -20px;
+        margin-top: 60px;
+    }
+    .exotic{
+        margin-top: -73px;
+        margin-left: -120px;
+    }
+    #daily-vegetables{
+        max-width: 135px;
+        max-height: 140px;
+        margin-left: -120px;
+        margin-top: 60px;
+    }
+    #herbs-seasoning{
+        max-width: 135px;
+        max-height: 130px;  
+        margin-left: -20px; 
+    }
+    #exotic-corner{
+        max-width: 135px;
+        max-height: 130px;
+    
+    }
+    .herbs{
+        margin-top: -73px;
+    }
+    .fresh{
+        margin-top: 30px;
+    }
+    .daily-staples{
+        margin-left:-40px;
+        width: 250px;
+        margin-top: -170px;
+    }
+    
+    #atta-img{
+        max-width: 140px;
+        max-height: 130px;
+        margin-left: -90px;
+    }
+    #rice{
+        margin-left: 6px;
+    }
+    #rice-img{
+        max-width: 140px;
+        max-height: 130px;
+        margin-left: 30px;
+    }
+    #oil-img{
+     max-width: 140px;
+     max-height: 130px;
+     margin-top: 130px;
+     margin-left: -100px;
+    }
+    #oil{
+     margin-left: -10px; 
+     margin-top: 10px;
+    }
+    #salt-img{
+     max-width: 140px;
+     max-height: 130px;
+     margin-top: 130px;
+     margin-left: 10px;
+    }
+    #salt{
+     margin-left: 6px;
+     margin-top: 10px;
+    }  
+    #snack-corner{
+        max-width: 200px;
+        max-height: 170px;
+        margin-left: -80px;
+     }
+     .snack{
+      width: 350px;
+      margin-top: 196px;
+      margin-left: -90px;
+  }
+  mat-grid-list img{
+      max-width: 130px;
+     max-height: 130px; 
+     margin-right: 10px;
+  }
+  #soups{
+    margin-top: -80px;
+    margin-left: -70px;
+   }
+   #sauce{
+    margin-top: -80px; 
+ } 
+ .soups-noodles{
+     margin-left: -100px;
+ }
+ .drinks{
+    margin-left: -40px;
+    width: 250px;
+    margin-top: -140px;
+    max-height: 30px;
+}
+.Juice{
+    max-width: 150px;
+    max-height: 150px;    
+  }
+  .Juice img{
+    max-width: 150px;
+    max-height: 150px;  
+  }
+  .Pediasure{
+    max-width: 150px;
+    max-height:150px;  
+  }
+  .Pediasure img{
+    max-width:150px;
+    max-height:150px;
+  }
+  .cleaning{
+    width: 250px;
+    margin-left:-40px;
+}
+.wash{
+    max-width: 130px;
+    max-height: 130px;
+}
+.machine-wash{
+    max-width: 130px;
+    max-height: 130px;
+}
+.pooja{
+    max-width: 130px;
+    max-height: 130px;
+    margin-top: -330px;
+    margin-left: 120px;
+}
+.beauty-title{
+    margin-left: -20px;
+      width: 270px;
+      margin-top: -270px;
+      font-size: 25px;
+      text-decoration: solid;
+}
+#soaps-shower{
+    max-width: 180px;
+    max-height: 160px;
+}
+.home-kitchen{
+    display: none;
+}
+
+.crockery{
+    display: none;
+  }
+  #party-essentials{
+    display: none;
+}
+.brand-store{
+    width: 250px;
+    margin-left: -20px;
+    margin-top: -740px;
+}
+
+.cocacola{
+    max-width:130px;
+    max-height: 130px;
+}
+.patanjali{
+    max-width:130px;
+    max-height: 130px;
+    margin-left: 270px;
+}
+
+.carousel3{
+    max-width:270px;
+}
+.slide-show{
+    margin-left: -80px;
+}
+.online-grocery{
+    max-width: 268px;
+    max-height: 950px;
+    margin-left: -50px;    
+}
+}
+@media screen and (min-width:426px) and (max-width:800px){
+    .carousel{
+        width: 100%;
+        margin-left: 2px;
+        margin-top:20px;  
+        max-height: 400px;       
+    }
+    .banner1{
+        width: 100%;
+        
+    }
+    .banner3{
+        width: 100%;
+        
+    }
+    .banner4{
+        width: 100%;
+       
+    }
+    .banner5{
+        width: 100%;   
+    }
+    .carousel2{
+        margin-top:50px; 
+      max-width: 720px;  
+    }
+    .section-1{
+        margin-left: -60px;
+        margin-right: -40px;
+    }
+    .section-title{
+        max-width: 300px;
+        margin-top: -10px;
+        margin-left: 150px;
+        margin-right: 30px;
+    }
+    .citi-bank{
+    height:150px;
+    margin-left:-140px ;
+    width: 70px;
+    }
+    #citi{
+        max-width: 170px;
+        margin-left: -90px;
+    }
+    .icici-bank{
+        height: 50px;
+    } 
+    #icici{
+        max-width: 170px;
+        margin-left: -30px;
+    }
+    .hsbc-bank{
+        height: 50px;
+    }
+    #hsbc{
+        max-width: 170px;
+        margin-top: -3px;
+        margin-left: -30px;
+    }
+    #idbi{
+        max-width: 170px;
+        margin-left: -30px;
+        margin-top: -6px;
+    }
+    mat-divider{
+        display: none;
+    }
+    .mask-gloves{
+        max-width: 200px;
+        max-height: 150px;
+        margin-right: 200px;
+    }
+    
+    #mask{
+        max-width: 200px;
+        max-height: 150px;
+    }
+    .sanitizers{
+        max-width: 200px;  
+        max-height: 150px;
+        margin-right: 230px;
+    }
+    #sanitarizer{
+        max-width: 200px;
+        max-height: 150px;
+    }
+    
+    .stationaries{
+        max-width: 200px;
+        max-height: 150px;
+        margin-top: -1px;
+        margin-right: 30px;
+    }
+    #stationery{
+        max-width: 200px;
+        max-height: 150px;  
+    }
+    .beauty-hygiene{
+        max-width: 200px;
+        max-height: 150px;
+        margin-top: -150px;
+        margin-right:180px;
+        margin-left: -50px;
+        display: none;
+    }
+    #hygiene{
+        max-width: 200px;
+        max-height: 150px;
+        margin-left: 100px;
+    }
+    .section{
+        max-width: 350px;
+        margin-top: -30px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 27px;
+    }
+    .fruits{
+        width: 280px;
+        margin-left: 160px;
+        margin-top: -20px;
+    }
+    #organic-store{
+       max-width: 250px;
+       max-height: 30px;
+       margin-top: 50px;
+       display: none;
+    }
+    
+    .mat-grid-list{
+        width: 84%;
+        margin-left: -480px;
+        margin-top: 336px;
+    }
+    #fresh-fruits{
+        max-width: 250px;
+        max-height: 170px;
+    }
+    .exotic{
+        margin-top: -20px;
+        margin-right: -160px;
+    }
+    #daily-vegetables{
+        max-width: 250px;
+        max-height: 170px;
+        margin-right: -160px;
+        margin-top: 30px;
+    }
+    #herbs-seasoning{
+        max-width: 250px;
+        max-height: 170px;  
+        margin-top: 50px; 
+    }
+    #exotic-corner{
+        max-width: 250px;
+        max-height: 170px;
+        
+    }
+    .herbs{
+        margin-top: -73px;
+    }
+    .fresh{
+        margin-top: 30px;
+    }
+    .daily-staples{
+        margin-left: 10px;
+        width: 250px;
+        margin-top: -90px;
+        display: none;
+    }
+    .card{
+        width: 50px;
+        height: 50px;
+        margin-left: -60px;
+        display: none;
+    }
+    #snack-corner{
+        max-width: 450px;
+        max-height: 250px;
+        margin-left: -180px;
+        display: none;
+     }
+     .snack{
+      width: 350px;
+      margin-top: -156px;
+      margin-left: 130px;
+  }
+  mat-grid-list img{
+      max-width: 250px;
+     max-height: 150px; 
+  }
+  #biscuits{
+    display:block; 
+    margin-right: -30px; 
+ }
+ .grid-list{
+     margin-right: -160px;
+ }
+ 
+ #frozen{ 
+    display:block;
+ }
+ #sauce{
+    margin-top: -40px; 
+    margin-left: 950px;
+ }
+ 
+ #soups{
+  margin-top: -160;
+  margin-right: -445px;
+ }
+ .soups-noodles{
+     margin-top: -70px;
+ }
+ .drinks{
+     margin-left: -340px;
+     margin-top: -60px;
+ }
+ 
+  .container2{
+      max-width: 580px;
+  }
+   .Juice{
+       margin-left: 30px;
+   }
+   .Pediasure{
+       margin-right: -10px;
+   }
+   .cleaning{
+       margin-left: -310px;
+   }
+  .machine-wash{
+      margin-left: -70px;
+  } 
+  .liquid-detergent{
+      margin-left: -60px;
+  }
+   .card3{
+       display: none;
+   }
+   .pooja{
+       margin-left: -60px;
+   }
+   .beauty-title{
+    margin-left: -340px;
+}
+   
+   .hygiene-beauty{
+       display: none;
+   }
+   .home-kitchen{
+       margin-left: -350px;
+   }
+   .under-149{
+       margin-left: -40px;
+   }
+   .cookware{
+       display: none;
+   }
+   #crockery{
+       margin-right: -120px;
+   }
+   #bins{
+       margin-right: -130px;
+   }
+   #party{
+       margin-left: -20px;
+   }
+   .brand-store{
+       margin-left: -380px;
+   }
+   .patanjali{
+       display:block;
+   }
+   #amul{
+       margin-left: -15px;
+   }
+   #dettol{
+    margin-left: 40px;
+}
+   
+   .cocacola{
+      margin-left: 110px;
+   }
+   #loreal{
+       display: none;
+   }
+   .patanjali{
+       margin-left: 70px;
+   }
+   .featured{
+       margin-left: -370px;
+   }
+   .carousel3{
+       max-width: 700px;
+   }
+   .slide-show{
+       margin-left: -60px;
+   }
+   .online-grocery{
+       max-width: 730px;
+   }
+   .grocery{
+       margin-left: -70px;
+   }
+   
+}
+

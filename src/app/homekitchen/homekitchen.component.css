@@ -1,0 +1,261 @@
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+a:hover{
+    color: #096;
+}
+li{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+
+mat-checkbox:hover{
+    color: #096;
+
+}
+
+.home{
+    color: #808285;
+    font: 400 10px/11px Lato,sans-serif;
+}
+.home:hover{
+    color: #096;
+}
+
+@media screen and (max-width:425px){
+    .homekitchen{
+        overflow-x: hidden;
+    }
+    .carousel{
+        max-width: 370px;
+    }
+    .image1{
+        width: 100%;
+    }
+    .image2{
+        width: 100%;
+    }
+    .image3{
+        width: 100%;
+    }
+.section1{
+    margin-left: -80px;
+}
+.category{
+    display: none;
+}
+mat-checkbox{
+    display: none;
+}
+mat-divider{
+    display: none;
+}
+#category{
+    display: none;
+}
+.banner-section{
+    margin-left: -150px;
+    max-width: 400px;
+    height:390vh;
+}
+
+#brand-title{
+    display: none;
+}
+#capacity-title{
+    display: none;
+}
+#search-brand{
+    display: none;
+}
+#search-icon{
+    display: none;
+}
+#product{
+    display: none;
+}
+.kitchen{
+    margin-left: -150px;
+    margin-top: -40px;
+}
+#all-products{
+    margin-left: -150px;
+    margin-top: -30px;
+}
+#bus-img{
+    margin-left: -170px;
+}
+.duracell-AAA{
+    margin-left: -120px;
+    max-height: 450px;
+}
+.duracell-AA{
+    margin-top: 460px;
+    margin-left: -380px;
+    max-height: 450px;
+}
+.pedigree{
+margin-top: 460px;
+margin-left: -650px;
+max-height: 450px;
+}
+.card4{
+    display:block;
+    margin-left: -120px;
+    margin-top: -40px;
+}
+.card5{
+    display:block;
+    margin-left: -380px;
+    margin-top: 430px;
+}
+.card6{
+    display: block;
+    margin-left: -650px;
+    margin-top: 430px;
+}
+
+}
+@media screen and (max-width:385px){
+    .carousel{
+        max-width: 330px;
+    }
+}
+@media screen and (max-width:320px){
+    .carousel{
+        max-width: 250px;
+    }
+    .section1{
+        margin-left: -70px;
+    }
+    .kitchen{
+        margin-left: -170px;
+        margin-top: -40px;
+    }
+    .duracell-AAA{
+        margin-left: -180px;
+        max-height: 450px;
+    }
+    .duracell-AA{
+        margin-top: 460px;
+        margin-left: -440px;
+        max-height: 450px;
+    }
+    .pedigree{
+    margin-top: 460px;
+    margin-left: -710px;
+    max-height: 450px;
+    }
+    .card4{
+        display:block;
+        margin-left: -180px;
+        margin-top: -40px;
+    }
+    .card5{
+        display:block;
+        margin-left: -440px;
+        margin-top: 430px;
+    }
+    .card6{
+        display: block;
+        margin-left: -710px;
+        margin-top: 430px;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:800px){
+    .homekitchen{
+        overflow-x: hidden;
+    }
+    .carousel{
+        max-width: 730px;
+    }
+    .image1{
+        width: 100%;
+    }
+    .image2{
+        width: 100%;
+    }
+    .image3{
+        width: 100%;
+    }
+.section1{
+    margin-left: -80px;
+}
+.category{
+    display: none;
+}
+mat-checkbox{
+    display: none;
+}
+mat-divider{
+    display: none;
+}
+#category{
+    display: none;
+}
+.banner-section{
+    margin-left: -150px;
+    max-width: 400px;
+    height:90vh;
+}
+
+#brand-title{
+    display: none;
+}
+#capacity-title{
+    display: none;
+}
+#search-brand{
+    display: none;
+}
+#search-icon{
+    display: none;
+}
+#product{
+    display: none;
+}
+.kitchen{
+    margin-left: -50px;
+    margin-top: -40px;
+}
+#all-products{
+    margin-left: -80px;
+    margin-top: -30px;
+}
+#bus-img{
+    margin-left: -90px;
+}
+.duracell-AAA{
+    margin-left: -190px;
+    max-height: 450px;
+}
+.duracell-AA{
+    margin-top: -10px;
+    margin-left: -200px;
+    max-height: 450px;
+}
+.pedigree{
+margin-top: -10px;
+margin-left: -210px;
+max-height: 450px;
+}
+.card4{
+    display:block;
+    margin-left: -190px;
+    margin-top: -40px;
+}
+.card5{
+    display:block;
+    margin-left: -200px;
+    margin-top: -30px;
+}
+.card6{
+    display: block;
+    margin-left: -210px;
+    margin-top: -10px;
+}
+
+}

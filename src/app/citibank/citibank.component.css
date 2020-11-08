@@ -1,0 +1,105 @@
+
+#content-mobile{display: none;}
+li{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:425px){
+    .citi{
+        max-width: 400px;
+        max-height: 830px;
+       margin-right: 340px;
+    }
+    #content-mobile{
+        display: block;
+        margin-left: -400px;
+    }
+    mat-card{
+        max-width: 400px;
+        max-height: 1100px;
+       margin-right: 340px;
+    }
+    img{
+        width: 100%;
+    }
+    #shop{
+        display: none;
+        width: 10px;
+        margin-left: -200px;
+    }
+    .btn{
+        margin-left: -190px;
+    }
+    .terms{
+    margin-right: 400px;
+    display: none;
+    }
+    ul{
+        max-width: 600px;
+    }
+    .citi{
+        margin-left: -199px;
+    }
+}
+    @media screen and (max-width:375px){
+        mat-card{
+            max-width: 370px;
+            max-height: 1100px;
+           margin-right: 340px;
+        }
+    }
+    @media screen and (max-width:325px){
+        mat-card{
+            max-width: 330px;
+            max-height: 1300px;
+           margin-right: 340px;
+        }  
+        .citi{
+            max-width: 400px;
+            max-height: 998px;
+           margin-right: 340px;
+           background-color: white;
+        }
+
+    }
+    @media screen and (min-width:426px) and (max-width:800px){
+        .citi{
+            max-width: 400px;
+            max-height: 830px;
+           margin-right: 340px;
+        }
+        #content-mobile{
+            display: block;
+            margin-left: -400px;
+        }
+        mat-card{
+            max-width: 750px;
+            max-height: 1100px;
+           margin-right: 340px;
+           margin-top: 20px;
+        }
+        img{
+            width: 100%;
+        }
+        #shop{
+            display: none;
+            width: 10px;
+            margin-left: -200px;
+        }
+        .btn{
+            margin-left: -190px;
+        }
+        .terms{
+        margin-right: 400px;
+        display: none;
+        }
+        ul{
+            max-width: 500px;
+        }
+        .citi{
+            margin-left: -199px;
+        }
+
+    }
+    
+

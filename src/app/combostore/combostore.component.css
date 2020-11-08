@@ -1,0 +1,341 @@
+.home{
+    color: #808285;
+    font: 400 10px/11px Lato,sans-serif;
+}
+.home:hover{
+    color: #096;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+a:hover{
+    color: #096;
+}
+li{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+mat-checkbox:hover{
+    color: #096;
+    
+}
+@media screen and (max-width:385px){
+    .combostore{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    #food-preference{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    .combo{
+        margin-left: -310px;
+        margin-top: 530px;
+    }
+    #all-products{
+        margin-left: -250px;
+        margin-top: -30px;
+    }
+    #bus-img{
+        margin-left: -270px;
+    }
+    .banner-section{
+        max-width: 400px;
+        height:680vh;
+    }
+    .coconut{
+        margin-top: 10px;
+        margin-left: -280px;
+    }
+    .dentastix{
+        margin-left: -550px;
+        margin-top: 480px;  
+    }
+    .dogtreat{
+        margin-left: -820px;
+        margin-top: 480px;
+    }
+    .oralcare{
+        margin-left: -280px;
+        margin-top: -10px;
+    }
+    .adult{
+        margin-left: -550px;
+        margin-top: 470px;  
+    }
+    .dry-milk{
+        margin-top: 475px;
+    margin-left: -820px;
+    }
+    .mackerel{
+        margin-left: -280px;
+    margin-top: -10px;
+    }
+    .ocean{
+        margin-left: -550px;
+        margin-top: 460px; 
+    }
+    .cookies{
+        margin-left: -820px;
+    margin-top: 460px;
+    }
+}
+@media screen and (max-width:425px){
+    .combostore{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    #food-preference{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    .combo{
+        margin-left: -310px;
+        margin-top: 530px;
+    }
+    #all-products{
+        margin-left: -250px;
+        margin-top: -30px;
+    }
+    #bus-img{
+        margin-left: -270px;
+    }
+    .banner-section{
+        max-width: 380px;
+        height:600vh;
+    }
+    .coconut{
+        margin-top: 10px;
+        margin-left: -280px;
+    }
+    .dentastix{
+        margin-left: -550px;
+        margin-top: 480px;  
+    }
+    .dogtreat{
+        margin-left: -820px;
+        margin-top: 480px;
+    }
+    .oralcare{
+        margin-left: -280px;
+        margin-top: -10px;
+    }
+    .adult{
+        margin-left: -550px;
+        margin-top: 470px;  
+    }
+    .dry-milk{
+        margin-top: 475px;
+    margin-left: -820px;
+    }
+    .mackerel{
+        margin-left: -280px;
+    margin-top: -10px;
+    }
+    .ocean{
+        margin-left: -550px;
+        margin-top: 460px; 
+    }
+    .cookies{
+        margin-left: -820px;
+    margin-top: 460px;
+    }
+}
+@media screen and (max-width:320px){
+    .banner-section{
+        max-width: 380px;
+        height:670vh;
+    }
+    .coconut{
+        margin-top: 10px;
+        margin-left: -320px;
+    }
+    .dentastix{
+        margin-left: -590px;
+        margin-top: 480px;  
+    }
+    .dogtreat{
+        margin-left: -860px;
+        margin-top: 480px;
+    }
+    .oralcare{
+        margin-left: -320px;
+        margin-top: -10px;
+    }
+    .adult{
+        margin-left: -590px;
+        margin-top: 470px;  
+    }
+    .dry-milk{
+        margin-top: 475px;
+    margin-left: -860px;
+    }
+    .mackerel{
+        margin-left: -320px;
+    margin-top: -10px;
+    }
+    .ocean{
+        margin-left: -590px;
+        margin-top: 460px; 
+    }
+    .cookies{
+        margin-left: -860px;
+    margin-top: 460px;
+    }  
+}
+@media screen and (min-width:426px) and (max-width:800px){
+    .combostore{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    #food-preference{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    .combo{
+        margin-left: -110px;
+        margin-top: 530px;
+    }
+    #all-products{
+        margin-left: -150px;
+        margin-top: -30px;
+    }
+    #bus-img{
+        margin-left: -170px;
+    }
+    .banner-section{
+        max-width: 380px;
+        height:150vh;
+    }
+    .coconut{
+        margin-top: 10px;
+        margin-left: -340px;
+    }
+    .dentastix{
+        margin-left: -360px;
+        margin-top: -10px;  
+    }
+    .dogtreat{
+        margin-left: -380px;
+        margin-top: -10px;
+    }
+    .oralcare{
+        margin-left: -340px;
+        margin-top: -10px;
+    }
+    .adult{
+        margin-left: -360px;
+        margin-top: -18px;  
+    }
+    .dry-milk{
+        margin-top: -18px;
+    margin-left: -380px;
+    }
+    .mackerel{
+        margin-left: -340px;
+    margin-top: -10px;
+    }
+    .ocean{
+        margin-left: -360px;
+        margin-top:-18px; 
+    }
+    .cookies{
+        margin-left: -380px;
+    margin-top: -18px;
+    }
+}

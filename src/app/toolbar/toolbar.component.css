@@ -1,0 +1,15 @@
+.offer:hover{
+background-color: yellowgreen;
+color: white;
+}
+
+#img:hover{
+     background-color: white;
+}
+
+@media screen and (max-width: 991px) {
+
+     #content-desktop {display: none;}
+     
+
+}

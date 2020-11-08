@@ -1,0 +1,263 @@
+.home{
+    color: #808285;
+    font: 400 10px/11px Lato,sans-serif;
+}
+.home:hover{
+    color: #096;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+a:hover{
+    color: #096;
+}
+li{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+mat-checkbox:hover{
+    color: #096;
+    
+}
+@media screen and (max-width:425px){
+    .soaps{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    .bath{
+        display: none;
+    }
+    #colour{
+        display: none;
+    }
+    .shower{
+        margin-left: -310px;
+        margin-top: 320px;
+       }
+    
+        #all-products{
+            margin-left: -250px;
+            margin-top: -10px;
+        }
+        #bus-img{
+            margin-left: -270px;
+        }
+        .banner-section{
+            max-width: 400px;
+            height:550vh;
+        }
+        .mysore{
+            margin-top: 10px;
+            margin-left: -280px; 
+        }
+        .gel{
+            margin-left: -550px;
+        margin-top: 430px;   
+        }
+        .aroma{
+            margin-left: -820px;
+            margin-top: 430px;     
+        }
+        .bar{
+            margin-left: -280px;
+            margin-top: -13px;   
+        }
+        .soft{
+            margin-left: -550px;
+            margin-top: 435px;   
+        }
+        .cream{
+            margin-top: 440px;
+            margin-left: -820px;    
+        }
+        .bodywash{
+            margin-left: -280px;
+            margin-top: -10px;    
+        }
+        .silk{
+            margin-left: -550px;
+            margin-top: 430px;    
+        }
+        .palmolive{
+            margin-left: -820px;
+            margin-top: 430px;    
+        }
+}
+@media screen and (max-width:385px){
+    .banner-section{
+        max-width: 400px;
+        height:630vh;
+    } 
+}
+@media screen and (max-width:375px){
+    .banner-section{
+        max-width: 400px;
+        height:500vh;
+    } 
+}
+@media screen and (max-width:320px){
+    .banner-section{
+        max-width: 400px;
+        height:630vh;
+    }
+    .mysore{
+        margin-top: 10px;
+        margin-left: -320px; 
+    }
+    .gel{
+        margin-left: -590px;
+    margin-top: 430px;   
+    }
+    .aroma{
+        margin-left: -860px;
+        margin-top: 430px;     
+    }
+    .bar{
+        margin-left: -320px;
+        margin-top: -13px;   
+    }
+    .soft{
+        margin-left: -590px;
+        margin-top: 435px;   
+    }
+    .cream{
+        margin-top: 440px;
+        margin-left: -860px;    
+    }
+    .bodywash{
+        margin-left: -320px;
+        margin-top: -10px;    
+    }
+    .silk{
+        margin-left: -590px;
+        margin-top: 430px;    
+    }
+    .palmolive{
+        margin-left: -860px;
+        margin-top: 430px;    
+    } 
+}
+@media screen and (min-width:426px) and (max-width:800px){
+    .soaps{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    .bath{
+        display: none;
+    }
+    #colour{
+        display: none;
+    }
+    .shower{
+        margin-left: -110px;
+        margin-top: 320px;
+       }
+    
+        #all-products{
+            margin-left: -150px;
+            margin-top: -10px;
+        }
+        #bus-img{
+            margin-left: -170px;
+        }
+        .banner-section{
+            max-width: 400px;
+            height:140vh;
+        }
+        .mysore{
+            margin-top: 10px;
+            margin-left: -340px; 
+        }
+        .gel{
+            margin-left: -360px;
+        margin-top: -10px;   
+        }
+        .aroma{
+            margin-left: -380px;
+            margin-top: -10px;     
+        }
+        .bar{
+            margin-left: -340px;
+            margin-top: -10px;   
+        }
+        .soft{
+            margin-left: -360px;
+            margin-top: -18px;   
+        }
+        .cream{
+            margin-top: -18px;
+            margin-left: -380px;    
+        }
+        .bodywash{
+            margin-left: -340px;
+            margin-top: -10px;    
+        }
+        .silk{
+            margin-left: -360px;
+            margin-top: -18px;    
+        }
+        .palmolive{
+            margin-left: -380px;
+            margin-top: -18px;    
+        }
+}

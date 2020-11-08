@@ -1,0 +1,253 @@
+.home{
+    color: #808285;
+    font: 400 10px/11px Lato,sans-serif;
+}
+.home:hover{
+    color: #096;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+a:hover{
+    color: #096;
+}
+li{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+mat-checkbox:hover{
+    color: #096;
+    
+}
+@media screen and (max-width:425px){
+    .party-essentials{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    .party{
+        margin-left: -310px;
+        margin-top: 500px;
+       }
+    
+        #all-products{
+            margin-left: -250px;
+            margin-top: -10px;
+        }
+        #bus-img{
+            margin-left: -270px;
+        }
+        .banner-section{
+            max-width: 400px;
+            height:550vh;
+        }
+        .bowl{
+            margin-top: 10px;
+            margin-left: -280px;  
+        }
+        .plate{
+            margin-left: -550px;
+            margin-top: 430px;   
+        }
+        .wooden{
+            margin-left: -820px;
+            margin-top: 430px;   
+        }
+        .wall{
+            margin-left: -280px;
+            margin-top: -13px; 
+        }
+        .knife{
+            margin-left: -550px;
+            margin-top: 435px; 
+        }
+        .small{
+            margin-top: 430px;
+            margin-left: -820px;  
+        }
+        .paper{
+            margin-left: -280px;
+            margin-top: -10px;   
+        }
+        .eco{
+            margin-left: -550px;
+            margin-top: 430px;    
+        }
+        .socks{
+            margin-left: -820px;
+            margin-top: 430px;  
+        }
+}
+@media screen and (max-width:375px){
+    .banner-section{
+        max-width: 400px;
+        height:500vh;
+    } 
+}
+@media screen and (max-width:385px){
+    .banner-section{
+        max-width: 400px;
+        height:630vh;
+    } 
+}
+@media screen and (max-width:320px){
+    .bowl{
+        margin-top: 10px;
+        margin-left: -320px;  
+    }
+    .plate{
+        margin-left: -590px;
+        margin-top: 430px;   
+    }
+    .wooden{
+        margin-left: -860px;
+        margin-top: 430px;   
+    }
+    .wall{
+        margin-left: -320px;
+        margin-top: -13px; 
+    }
+    .knife{
+        margin-left: -590px;
+        margin-top: 435px; 
+    }
+    .small{
+        margin-top: 430px;
+        margin-left: -860px;  
+    }
+    .paper{
+        margin-left: -320px;
+        margin-top: -10px;   
+    }
+    .eco{
+        margin-left: -590px;
+        margin-top: 430px;    
+    }
+    .socks{
+        margin-left: -860px;
+        margin-top: 430px;  
+    }  
+}
+@media screen and (min-width:426px) and (max-width:800px){
+    .party-essentials{
+        overflow-x: hidden;
+    }
+    .category{
+        display: none;
+    }
+    mat-checkbox{
+        display: none;
+    }
+    mat-divider{
+        display: none;
+    }
+    #category{
+        display: none;
+    }
+    #brand-title{
+        display: none;
+    }
+    #search-brand{
+        display: none;
+    }
+    #search-icon{
+        display: none;
+    }
+    #price-title{
+        display: none;
+    }
+    #discount{
+        display: none;
+    }
+    #pack-size{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    .party{
+        margin-left: -110px;
+        margin-top: 500px;
+       }
+    
+        #all-products{
+            margin-left: -150px;
+            margin-top: -10px;
+        }
+        #bus-img{
+            margin-left: -170px;
+        }
+        .banner-section{
+            max-width: 400px;
+            height:140vh;
+        }
+        .bowl{
+            margin-top: 10px;
+            margin-left: -340px;  
+        }
+        .plate{
+            margin-left: -360px;
+            margin-top: -10px;   
+        }
+        .wooden{
+            margin-left: -380px;
+            margin-top: -10px;   
+        }
+        .wall{
+            margin-left: -340px;
+            margin-top: -10px; 
+        }
+        .knife{
+            margin-left: -360px;
+            margin-top: -18px; 
+        }
+        .small{
+            margin-top: -18px;
+            margin-left: -380px;  
+        }
+        .paper{
+            margin-left: -340px;
+            margin-top: -10px;   
+        }
+        .eco{
+            margin-left: -360px;
+            margin-top: -18px;    
+        }
+        .socks{
+            margin-left: -380px;
+            margin-top: 18px;  
+}
+}

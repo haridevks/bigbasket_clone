@@ -1,0 +1,35 @@
+@media screen and (max-width:425px){
+    .precaution{
+        margin-left: -180px;
+    }
+     .measures{
+         max-height: 1980px;
+         max-width: 400px;
+     }
+    img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:385px){
+    .measures{
+        max-height: 1810px;
+        max-width: 370px;
+    }
+}
+@media screen and (max-width:320px){
+    .measures{
+        max-height: 1380px;
+        max-width: 280px;
+    }
+}
+@media screen and (min-width:426px) and (max-width:800px){
+    .measures{
+        max-height: 385vh;
+    }
+    .precaution{
+        margin-left: -200px;
+    }
+    img{
+       max-width: 800px;
+    }
+}

@@ -1,0 +1,42 @@
+<div class="login-sign">
+<mat-tab-group mat-align-tabs="center">
+    <mat-tab label="LOGIN" >
+        <div >
+            <a href="">
+                <img src="../../assets/images/facebool.png" style="margin-left: 96px;margin-top:10px;" id="fb">
+                <img src="../../assets/images/gplus.png" style="margin-left: 30px;margin-top: 10px;" id="gplus"></a>
+                <p style="color: #666;margin-left: 155px;margin-top: 10px;" id="or">OR</p>
+                <form class="example-form">
+                    <mat-form-field  style="width: 280px;margin-left:14px ;" >
+                      <mat-label style="font-size: 12px;color:grey ;" id="email">Mobile Number (10 digit)/ Email Address</mat-label>
+                      <input matInput placeholder="" value="" >
+                      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                        Please enter a email or mobile number
+                      </mat-error>
+                     
+                          </mat-form-field>
+                  </form>
+                  <button class="otp" mat-button style="background-color:#84c225;width: 270px;height: 40px;margin-left: 20px;color: white;margin-top:150px;">Login Using OTP</button>
+                </div>
+    </mat-tab>
+    <mat-tab label="SIGN UP">
+        <div>
+            <a href="">
+                <img src="../../assets/images/facebool.png" style="margin-left: 96px;margin-top:10px;">
+                <img src="../../assets/images/gplus.png" style="margin-left: 30px;margin-top: 10px;"></a>
+                <p style="color: #666;margin-left: 155px;margin-top: 10px;">OR</p>
+                <form class="example-form">
+                    <mat-form-field  style="width: 280px;margin-left:14px ;" >
+                      <mat-label style="font-size: 12px;color:grey ;">Mobile Number (10 digit)/ Email Address</mat-label>
+                      <input matInput placeholder="" value="" >
+                      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                        Please enter a email or mobile number
+                      </mat-error>
+                     
+                          </mat-form-field>
+                  </form>
+                  <button mat-button class="otp" style="background-color:#84c225;width: 270px;height: 40px;margin-left: 20px;color: white;margin-top:150px;">Signup Using OTP</button>
+                </div>   
+    </mat-tab>
+  </mat-tab-group>
+</div>
